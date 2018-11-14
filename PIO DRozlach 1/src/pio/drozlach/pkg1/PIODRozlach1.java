@@ -1,6 +1,10 @@
 package pio.drozlach.pkg1;
 
-import java.util.Random;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+
 /**
  *
  * @author Student
@@ -11,23 +15,32 @@ public class PIODRozlach1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Random rand = new Random();
-        Player player = new Player();
-        player.setName("");
-        int kosc;
-        int guess;
-        do{       
-            kosc = rand.nextInt(6)+1;
-            System.out.println("Gracz 1 rzucił kością. Liczba oczek wynosi: " + kosc );
-
-            guess = player.guess();
-            System.out.println("Gracz " + player.getName() + " obstawia liczbę: " + guess);
-            
-            if(guess!=kosc){
-                System.out.println("Gracz " + player.getName() + " nie odgadnął liczby na kostce");
-            }
-        }while(guess!=kosc);
+        Player p = new Player();       
+//        Game game = new Game();
+//        game.addPlayer(p);
+//        game.play();
         
-        System.out.println("Gracz " +player.getName()+ " odgadnął liczbę oczek na kostce!");
+        
+        List<String> list = new ArrayList();
+        list.add("raz");
+        list.add("dwa");
+        list.add("trzy");
+        
+//        Wyświetlanie Listy
+
+//        System.out.println(list);
+        
+//        for(int i =0;i<list.size();i++){
+//            System.out.println(list.get(i));
+//        }
+        
+//        for(String s : list){      
+//            System.out.println(s);
+//        }
+        
+//        Iterator<String> it = list.iterator();
+//        while(it.hasNext()){
+//            System.out.println(it.next());
+//        }
     }
 }
