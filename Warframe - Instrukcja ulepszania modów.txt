@@ -1,0 +1,12 @@
+1. Uruchom gre.
+2. Zaloguj się.
+3. Otwórz menu naciskając "ESC".
+4. Wybierz zakładkę "Equipment".
+5. Wybierz zakładkę "Mods".
+6. Wpisz w pasek wyszukiwania nazwę moda.
+7. Zaznacz mod klikając w niego lewym przyciskiem myszy.
+8. Kliknij przycisk "Fusion".
+9. Za pomocą przycisków "+" oraz "-" wybierz poziom do którego chcesz ulepszyć moda.
+10. Nacisnij "Apply Fusion".
+11. Potwierdź naciskając "Yes".
+12. Nacisnij przycisk "Back" aby powrócić do konsoli modów.
